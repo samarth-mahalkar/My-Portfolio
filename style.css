@@ -60,7 +60,7 @@ a:hover{
 }
 
 .hero-section{
-    padding: 0px 320px;
+    /* padding: 0px 320px; */
     justify-content: space-around;
     text-align: center;
 }
@@ -145,4 +145,161 @@ a:hover{
     margin-top: 2rem;
     text-align: justify;
     color: darkgray;
+}
+
+.experience-container {
+    margin-top: 5rem;
+
+}
+
+.experience-container > p{
+    text-align: center;
+    color: darkgray;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.experience-container > h2{
+    font-size: 2rem;
+}
+.experience-div {
+    margin-top: 5rem;
+}
+
+.Frontend{
+    width: 500px;
+    /* background-color: aquamarine; */
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.Frontend h3 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.tech-list ul li {
+    margin: 20px 0px;
+}
+
+.tech-list ul li h4 {
+    margin-bottom: 10px;
+}
+
+.title{
+    text-align: center;
+    gap: 20px;
+}
+
+.title p{
+    margin: 20px 10px;
+    color: rgb(204, 203, 203);
+}
+
+.title h3{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.projects{
+    /* border: 1px solid black; */
+    padding: 30px 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    /* background-color: rgb(211, 208, 208); */
+
+}
+
+#project{
+    border: 1px solid black;
+    padding: 30px 30px;
+    border-radius: 20px;
+    background-color: rgb(235, 232, 232);
+}
+
+.img-project img{
+    width: 300px;
+    border-radius: 20px;
+    /* text-align: center; */
+}
+.projects #project h3{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.projects #project a{
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 5px;
+}
+
+.button{
+    text-align: center;
+}
+.projects #project .button a:hover{
+ background-color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);
+}
+
+
+.main-contact .title-contact{
+    text-align: center;
+    margin: 30px;
+}
+
+.main-contact .title-contact p{
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: rgb(204, 202, 202);
+
+}
+
+.main-contact .title-contact h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.Contact-link img{
+    height: 40px;
+
+}
+
+.Contact-link{
+    justify-self: center;
+    text-align: center;
+}
+
+.footer-div{
+    border: 1px solid black;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    justify-self: center;
+    display: flex;
+}
+
+.Contact-link{
+ text-align: center;
+ display: flex;
+ gap: 11px;
+}
+
+.Contact-link a{
+    font-size: 20px;
+}
+
+.footer{
+    text-align: center;
+    justify-self: center;
+    
+}
+
+.footer p{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
 }
