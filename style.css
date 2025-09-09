@@ -308,18 +308,205 @@ a:hover{
 
 /* Media Queries */
 
-@media screen and (max-width: 426px) {
+/* ================== RESPONSIVE DESIGN ================== */
 
-    .container{
-        padding: 10px 20px;
+/* For tablets (portrait and landscape) */
+@media screen and (max-width: 1024px) {
+    #nav-container {
+        padding: 20px 80px;
     }
+
+    .container {
+        height: auto;
+    }
+
     .hero-section {
         flex-direction: column;
-       padding: 0px 20px;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .profile-img img {
+        height: 300px;
+    }
+
+    .about-me {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .about-info-div {
+        width: 100%;
+    }
+
+    .experience-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .Frontend {
+        width: 100%;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #project {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+/* For small tablets and large phones */
+@media screen and (max-width: 768px) {
+    #nav-container {
+        padding: 20px 40px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-section {
+        padding: 20px;
+    }
+
+    .profile-img img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #profile-info h1 {
+        font-size: 1.5rem;
+    }
+
+    #profile-info h2 {
+        font-size: 1.2rem;
+    }
+
+    .about-me img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .Frontend {
+        padding: 30px;
+    }
+
+    .img-project img {
+        width: 100%;
+    }
+}
+
+/* For mobile phones */
+@media screen and (max-width: 426px) {
+    #nav-container {
+        padding: 15px 20px;
+    }
+
+    nav h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 10px;
     }
 
     .profile-img img {
         width: 150px;
         height: 150px;
+    }
+
+    .about-me {
+        gap: 1rem;
+    }
+
+    .about-info-div {
+        padding: 15px;
+    }
+
+    .Frontend {
+        padding: 20px;
+    }
+
+    .projects {
+        padding: 10px;
+    }
+
+    #project {
+        padding: 15px;
+    }
+
+    .main-contact .title-contact h3 {
+        font-size: 28px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+/* For very small devices */
+@media screen and (max-width: 320px) {
+    #nav-container {
+        padding: 10px 15px;
+    }
+
+    nav h1 {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        gap: 5px;
+    }
+
+    .profile-img img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #profile-info h1 {
+        font-size: 1.2rem;
+    }
+
+    #profile-info h2 {
+        font-size: 1rem;
+    }
+
+    .about-me img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Frontend {
+        padding: 15px;
+    }
+
+    .projects {
+        padding: 5px;
+    }
+
+    #project {
+        padding: 10px;
+    }
+
+    .main-contact .title-contact h3 {
+        font-size: 24px;
+    }
+
+    .footer p {
+        font-size: 10px;
     }
 }
